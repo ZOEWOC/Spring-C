@@ -5,4 +5,5 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="someService" class="com.zoewoc.service.impl.SomeServiceImpl"/>
     <bean id="someService1" class="com.zoewoc.service.impl.SomeServiceImpl"/>
+
 </beans>
