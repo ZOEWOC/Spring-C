@@ -44,9 +44,9 @@
     </bean>
 
     <bean id="myStudent3" class="com.zoewoc.ba03.Student">
-    <constructor-arg  value="5341532634526"/>
-    <constructor-arg  value="23"/>
-    <constructor-arg  ref="mySchool"/>
-</bean>
+        <constructor-arg value="5341532634526"/>
+        <constructor-arg value="23"/>
+        <constructor-arg ref="mySchool"/>
+    </bean>
 
 </beans>
