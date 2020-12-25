@@ -19,17 +19,29 @@
                 1.java类中引用类型的数据类型和bean的class的值是一样的。
                 2.java类中应用类型的数据类型和bean的class的值是父子类关系的。
                 3.java类中引用类型的数据类型和bean的class的值是接口和实现类关系的。
+
+                注意：在bytype时，在xml配置文件中声明bean只能有一个符合条件。
 -->
-    <bean id="myStudent" class="com.zoewoc.ba04.Student" autowire="byName">
-        <property name="name" value="李四"/>
+    <bean id="myStudent" class="com.zoewoc.ba05.Student" autowire="byType">
+        <property name="name" value="bytype实现的名字"/>
         <property name="age" value="20"/>
         <!--        引用类型的赋值-->
 <!--        <property name="school" ref="mySchool"/> &lt;!&ndash;setSchool()方法&ndash;&gt;-->
     </bean>
 
-    <bean id="school" class="com.zoewoc.ba04.School">
-        <property name="name" value="ZOE"/>
+
+<!--    bytype第一种方式-->
+<!--    <bean id="mySchool" class="com.zoewoc.ba05.School">-->
+<!--        <property name="name" value="ZOE"/>-->
+<!--        <property name="address" value="536"/>-->
+<!--    </bean>-->
+
+    <!--    bytype第二种方式-->
+    <bean id="primarySchool" class="com.zoewoc.ba05.PrimarySchool">
+        <property name="name" value="ZOE小学"/>
         <property name="address" value="536"/>
     </bean>
+
+
 
 </beans>
