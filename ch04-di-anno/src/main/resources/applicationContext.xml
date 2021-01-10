@@ -18,5 +18,26 @@
                 2.给这个新的约束文件起个命名空间的名称-》http://www.springframework.org/schema/context
 
             -->
-    <context:component-scan base-package="com.zoewoc.ba01"/>
+    <!--    <context:component-scan base-package="com.zoewoc.ba01"/>-->
+    <!--    <context:component-scan base-package="com.zoewoc.ba02"/>-->
+<!--    <context:component-scan base-package="com.zoewoc.ba03"/>-->
+    <context:component-scan base-package="com.zoewoc.ba04"/>
+
+<!--    <bean id="mySchool" class="com.zoewoc.ba03.School">-->
+<!--        <property name="name" value="beijiengdaxue"/>-->
+<!--        <property name="address" value="asdoifja;lkd"/>-->
+<!--    </bean>-->
+
+    <!--    指定多个包的三种方式-->
+
+    <!--    第一种方式：使用多次组件扫描器，指定不同的包-->
+    <!--    <context:component-scan base-package="com.zoewoc.ba01"/>-->
+    <!--    <context:component-scan base-package="com.zoewoc.ba02"/>-->
+
+    <!--    第二种方式：使用分隔符（;或,）分隔多个包名-->
+    <!--    <context:component-scan base-package="com.zoewoc.ba01,com.zoewoc.ba02"/>-->
+
+    <!--    第三种方式：使用父包,最好指为com-->
+    <!--    <context:component-scan base-package="com.zoewoc"/>-->
+
 </beans>
