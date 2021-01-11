@@ -20,13 +20,16 @@
             -->
     <!--    <context:component-scan base-package="com.zoewoc.ba01"/>-->
     <!--    <context:component-scan base-package="com.zoewoc.ba02"/>-->
-<!--    <context:component-scan base-package="com.zoewoc.ba03"/>-->
-    <context:component-scan base-package="com.zoewoc.ba04"/>
+    <!--    <context:component-scan base-package="com.zoewoc.ba03"/>-->
+    <!--    <context:component-scan base-package="com.zoewoc.ba04"/>-->
+    <!--    <context:component-scan base-package="com.zoewoc.ba05"/>-->
+    <!--    <context:component-scan base-package="com.zoewoc.ba06"/>-->
+    <context:component-scan base-package="com.zoewoc.ba07"/>
 
-<!--    <bean id="mySchool" class="com.zoewoc.ba03.School">-->
-<!--        <property name="name" value="beijiengdaxue"/>-->
-<!--        <property name="address" value="asdoifja;lkd"/>-->
-<!--    </bean>-->
+    <!--    <bean id="mySchool" class="com.zoewoc.ba03.School">-->
+    <!--        <property name="name" value="beijiengdaxue"/>-->
+    <!--        <property name="address" value="asdoifja;lkd"/>-->
+    <!--    </bean>-->
 
     <!--    指定多个包的三种方式-->
 
